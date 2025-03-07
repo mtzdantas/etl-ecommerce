@@ -10,8 +10,13 @@ bq load --source_format=CSV --skip_leading_rows=1 --schema=schema.json etl_ecomm
 ```
 
 ## Script
-O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform e nele primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
+O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform, para ser executado dentro do VSCode é necessário fazer uma autenticação com a conta do google. No notebook primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
 Dentro do mesmo arquivo, após exportar a tabela, é feito o cálculo das métricas de receita total, vendas por país, vendas por mês e ano e vendas por categoria, e cada métrica é exportado para uma tabela diferente.
+
+Para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o seguinte comando e faça a autenticação na web com sua conta do Google.
+```
+gcloud auth application-default login
+```
 
 ## Automatização
 A parte de automação do script é feita no próprio GCP, onde foi configurado para o script rodar todo dia, mas também é possível executa-lo a hora que quiser com apenas um clique.
