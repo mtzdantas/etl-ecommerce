@@ -10,9 +10,18 @@ bq load --source_format=CSV --skip_leading_rows=1 --schema=schema.json etl_ecomm
 ```
 
 ## Script
+<<<<<<< HEAD
 O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform e nele primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa. Para ser executado dentro do VSCode é necessário fazer uma autenticação. E para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o comando "gcloud auth application-default login" e faça a autenticação na web com sua conta do Google. Se já tiver configurado a base de dados, é só executar o notebook.
 
+=======
+O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform, para ser executado dentro do VSCode é necessário fazer uma autenticação com a conta do google. No notebook primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
+>>>>>>> 386f76316d1293cf875024551904a0ccaf5b0e0e
 Dentro do mesmo arquivo, após exportar a tabela, é feito o cálculo das métricas de receita total, vendas por país, vendas por mês e ano e vendas por categoria, e cada métrica é exportado para uma tabela diferente.
+
+Para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o seguinte comando e faça a autenticação na web com sua conta do Google.
+```
+gcloud auth application-default login
+```
 
 ## Automatização
 A parte de automação do script é feita no próprio GCP, onde foi configurado para o script rodar todo dia, mas também é possível executa-lo a hora que quiser com apenas um clique.
@@ -20,9 +29,14 @@ A parte de automação do script é feita no próprio GCP, onde foi configurado 
 ## Pequeno vídeo demonstrativo
 A partir do seguinte vídeo é possível acompanhar como as tabelas foram estruturadas, assim como, o que acontece após a parte de automação ser executada dentro da nuvem:
 
-[Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY)
+Youtube: [Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY)
 
 OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário apenas atualizar invés de criar, o script funciona corretamente.
+
+## Dashboard
+Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
+
+Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/n9OwZIGL9uQ).
 
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
