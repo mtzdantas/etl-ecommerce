@@ -10,12 +10,7 @@ bq load --source_format=CSV --skip_leading_rows=1 --schema=schema.json etl_ecomm
 ```
 
 ## Script
-<<<<<<< HEAD
-O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform e nele primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa. Para ser executado dentro do VSCode é necessário fazer uma autenticação. E para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o comando "gcloud auth application-default login" e faça a autenticação na web com sua conta do Google. Se já tiver configurado a base de dados, é só executar o notebook.
-
-=======
 O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform, para ser executado dentro do VSCode é necessário fazer uma autenticação com a conta do google. No notebook primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
->>>>>>> 386f76316d1293cf875024551904a0ccaf5b0e0e
 Dentro do mesmo arquivo, após exportar a tabela, é feito o cálculo das métricas de receita total, vendas por país, vendas por mês e ano e vendas por categoria, e cada métrica é exportado para uma tabela diferente.
 
 Para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o seguinte comando e faça a autenticação na web com sua conta do Google.
@@ -36,12 +31,12 @@ OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário
 ## Dashboard
 Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
 
-Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/n9OwZIGL9uQ).
+Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4).
 
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
 
-## Para clonar o Repositório:
+## Se desejar clonar o Repositório:
 
 ```bash
 git clone https://github.com/mtzdantas/etl-ecommerce.git
