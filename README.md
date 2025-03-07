@@ -31,7 +31,7 @@ OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário
 ## Dashboard
 Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
 
-Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/n9OwZIGL9uQ).
+Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4).
 
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
