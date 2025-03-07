@@ -24,7 +24,7 @@ A parte de automação do script é feita no próprio GCP, onde foi configurado 
 ## Pequeno vídeo demonstrativo
 A partir do seguinte vídeo é possível acompanhar como as tabelas foram estruturadas, assim como, o que acontece após a parte de automação ser executada dentro da nuvem:
 
-Youtube: [Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY)
+Youtube: [Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY).
 
 OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário apenas atualizar invés de criar, o script funciona corretamente.
 
@@ -32,6 +32,8 @@ OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário
 Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
 
 Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4).
+
+PDF: [Visualize uma prévia](Dashboard-Ecommerce.pdf).
 
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
