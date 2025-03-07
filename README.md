@@ -23,6 +23,11 @@ A partir do seguinte vídeo é possível acompanhar como as tabelas foram estrut
 
 OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário apenas atualizar invés de criar, o script funciona corretamente.
 
+## Dashboard
+Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
+
+[Acesse o Dashboard aqui](https://lookerstudio.google.com/s/n9OwZIGL9uQ).
+
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
 
