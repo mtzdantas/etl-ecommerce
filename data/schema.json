@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "InvoiceNo",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "StockCode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Description",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Quantity",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "InvoiceDate",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UnitPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CustomerID",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Country",
+    "type": "STRING"
+  }
+]
