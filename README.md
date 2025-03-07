@@ -16,8 +16,12 @@ Dentro do mesmo arquivo, após exportar a tabela, é feito o cálculo das métri
 ## Automatização
 A parte de automação do script é feita no próprio GCP, onde foi configurado para o script rodar todo dia, mas também é possível executa-lo a hora que quiser com apenas um clique.
 
-## Vídeo explicativo
-A partir do seguinte vídeo é possível acompanhar como as tabelas foram estruturadas, assim como, a parte de automação funcionando dentro da nuvem:
+## Pequeno vídeo demonstrativo
+A partir do seguinte vídeo é possível acompanhar como as tabelas foram estruturadas, assim como, o que acontece após a parte de automação ser executada dentro da nuvem:
+
+[Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY)
+
+OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário apenas atualizar invés de criar, o script funciona corretamente.
 
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
