@@ -29,7 +29,7 @@ Youtube: [Acesse o vídeo aqui](https://youtu.be/JJkR8Wr0WbY).
 OBS: Nesse exemplo, as novas tabelas foram criadas, porém caso seja necessário apenas atualizar invés de criar, o script funciona corretamente.
 
 ## Dashboard
-Dashboard feito com o Looker Studio, disponibilizado no seguinte link:
+Dashboard feito com o Looker Studio e sincronizado com base de dados do BigQuery, sendo atualizado conforme os dados mudam.
 
 Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4).
 
