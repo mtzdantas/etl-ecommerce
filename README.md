@@ -3,14 +3,14 @@ Esses dados foram baixados e importados para dentro de um bucket de um projeto n
 
 Kaggle: [Acesse os dados aqui](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center).
 
-Em seguida, foi criado uma nova base de dados no BigQuery e a partir do Google Cloud CLI foi executado o seguinte comando para transformar o ecommerce.csv em uma tabela com base nos parâmetros que podem ser visualizados em '/data/schema.json':
+Em seguida, foi criada uma nova base de dados no BigQuery e a partir do Google Cloud CLI foi executado o seguinte comando para transformar o ecommerce.csv em uma tabela com base nos parâmetros que podem ser visualizados em '/data/schema.json':
 
 ```
 bq load --source_format=CSV --skip_leading_rows=1 --schema=schema.json etl_ecommerce.tb_compras gs://info_compras/dados/ecommerce.csv
 ```
 
 ## Script
-O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Plataform, para ser executado dentro do VSCode é necessário fazer uma autenticação com a conta do google. No notebook primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
+O notebook 'transform.ipynb' foi implementado dentro do Google Cloud Platform, para executar no VSCode, é necessário autenticar com uma conta do Google. No notebook primeiro é feito a extração dos dados via BigQuery, depois é realizado a limpeza e manipulação dos mesmos e exportado para uma nova tabela limpa.
 Dentro do mesmo arquivo, após exportar a tabela, é feito o cálculo das métricas de receita total, vendas por país, vendas por mês e ano e vendas por categoria, e cada métrica é exportado para uma tabela diferente.
 
 Para fazer a autenticação mude o diretório no CLI da Google Cloud para o do seu projeto com cd "caminho" em seguida execute o seguinte comando e faça a autenticação na web com sua conta do Google.
@@ -36,7 +36,7 @@ Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4)
 PDF: [Visualize uma prévia](Dashboard-Ecommerce.pdf).
 
 ## Desafios
-Foi minha primeira experiência com a Google Cloud Plataform, confesso que de ínicio não me familiarizei tanto, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei e superar essa dificuldade.
+Este foi meu primeiro contato com a Google Cloud Platform. No início, tive um pouco de dificuldade para me familiarizar com a ferramenta, mas após algumas pesquisas e experimentação, consegui superar os desafios e concluir a implementação.
 
 ## Clone o repositório:
 
