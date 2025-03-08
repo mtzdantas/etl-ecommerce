@@ -36,7 +36,7 @@ Looker: [Acesse o Dashboard aqui](https://lookerstudio.google.com/s/uVzmjlEjxI4)
 PDF: [Visualize uma prévia](Dashboard-Ecommerce.pdf).
 
 ## Desafios
-Foi minha primeira experiência com a Google Cloud Plataform, confesso que não me familiarizei de ínicio, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei.
+Foi minha primeira experiência com a Google Cloud Plataform, confesso que de ínicio não me familiarizei tanto, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei e superar essa dificuldade.
 
 ## Se desejar clonar o Repositório:
 
