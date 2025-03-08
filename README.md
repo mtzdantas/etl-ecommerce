@@ -38,7 +38,7 @@ PDF: [Visualize uma prévia](Dashboard-Ecommerce.pdf).
 ## Desafios
 Foi minha primeira experiência com a Google Cloud Plataform, confesso que de ínicio não me familiarizei tanto, porém após realizar algumas pesquisas e estudar um pouco sobre, consegui resolver os problemas que enfrentei e superar essa dificuldade.
 
-## Se desejar clonar o Repositório:
+## Clone o repositório:
 
 ```bash
 git clone https://github.com/mtzdantas/etl-ecommerce.git
